@@ -1,0 +1,22 @@
+{
+  "name": "hashmap",
+  "version": "1.0.0",
+  "description": "hashMap exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rambonette/hashMap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rambonette/hashMap/issues"
+  },
+  "homepage": "https://github.com/rambonette/hashMap#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
