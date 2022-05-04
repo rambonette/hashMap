@@ -238,17 +238,17 @@ function getFromTable(data)
     let username = data.username, tableName = data.tableName, key = data.key;
     if (maps[username+tableName])
     {
-        //try
-        //{
+        try
+        {
             let content = maps[username+tableName].get(key);
             logAction(username, "getFromTable");
             return { status: "DONE!", result: content };
-        /*}
+        }
         catch(e)
         {
             logAction(username, { error: e });
             return { status: "INTERNAL SERVER ERROR" };
-        }*/
+        }
     }
     else return { status: "ERROR: table does not exists!" };
 }
